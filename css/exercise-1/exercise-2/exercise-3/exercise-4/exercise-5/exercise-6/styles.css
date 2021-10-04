@@ -1,0 +1,23 @@
+.size{
+    font-size: 20px;
+}
+
+.confirm {
+    background-color: green;
+    color: white;
+}
+.cancel {
+    background-color: pink;
+}
+.first {
+    color: red;
+}
+
+.ancestor .child {
+    color: green;
+    font-size: 30px;
+}
+
+.second {
+    font-size:12px;
+}
