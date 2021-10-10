@@ -1,0 +1,46 @@
+.box1 {
+    margin: 0 3em 0 3em;
+}
+/*simple box model*/
+
+.box2 {
+    margin: 0 1.5em;
+}
+/*able to shorten the code, css will auto define based on the values*/
+
+.box3 {
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+/*able to input each value instead*/
+
+.box4 {
+    width: 980px;
+    margin: 0 auto;
+}
+/* 0=auto */
+
+
+
+.box5 {
+    padding: 1rem;
+    background: white;   
+}
+
+.box5 h3 {
+    background: #90a4ae;
+    margin: -1rem -1rem 1rem -1rem;
+    padding: 1rem;
+}
+.box5 :last-child {
+    margin-bottom: 0px;
+}
+
+body {
+    background: #ddd;
+    margin: 1rem;
+    padding: 1rem;
+    max-width: 400px;
+}
